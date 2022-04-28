@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const iAxios = axios.create({
-    baseURL: 'http://localhost:3333/',
+    baseURL: 'https://desafio-backend-03-dindin.herokuapp.com/',
     timeout: 10000,
     headers: {
         'Content-Type': 'application/json'

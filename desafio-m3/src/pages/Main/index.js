@@ -136,7 +136,7 @@ export default function Main() {
     const handleSubmitFilter = async () => {
 
         try {
-            const response = await api.get(`/transacao?:filtro=${arrayFilter}`, {
+            const response = await api.get(`/transacao`, {
                 headers: {
                     Authorization: `Bearer ${token}`
                 }
@@ -200,10 +200,10 @@ export default function Main() {
                                     return <button
                                         type='button'
                                         key={elem.id}
-                                        className={arrayFilter.includes(elem.nome) ? "btn-filter btn-select" : "btn-filter"}
-                                        value={elem.nome}
+                                        className={arrayFilter.includes(elem.descricao) ? "btn-filter btn-select" : "btn-filter"}
+                                        value={elem.descricao}
                                         onClick={(e) => handleAddFilter(e)}
-                                    >{elem.nome} &ensp;+</button>
+                                    >{elem.descricao} &ensp;+</button>
                                 })}
 
                             </div>

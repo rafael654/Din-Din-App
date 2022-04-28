@@ -129,7 +129,7 @@ export default function ModalEdit({ id, setShowModalEdit, loadTransactions, upda
                     <label htmlFor='category'>Categoria</label>
                     <select name='category' value={idCategory} id='category' onChange={(e) => setIdCategory(e.target.value)}>
                         {category.map((item) => {
-                            return <option key={item.id} value={item.id}>{item.nome}</option>
+                            return <option key={item.id} value={item.id}>{item.descricao}</option>
                         })}
                     </select>
                     <label htmlFor='date'>Data</label>

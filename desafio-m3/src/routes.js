@@ -1,7 +1,7 @@
 import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
 import Main from "./pages/Main";
 import Login from "./pages/Login";
-import SignUp from "./pages/Signup";
+import SignUp from "./pages/SignUp";
 
 function ProtectedRoutes({ redirectTo }) {
     const isAuthenticated = localStorage.getItem('token');

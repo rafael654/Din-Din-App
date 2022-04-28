@@ -106,7 +106,7 @@ export default function ModalAdd({ setShowModalAdd, loadTransactions, updateResu
                     <label htmlFor='category'>Categoria</label>
                     <select name='category' id='category' onChange={(e) => setIdCategory(e.target.value)}>
                         {category.map((item) => {
-                            return <option key={item.id} value={item.id}>{item.nome}</option>
+                            return <option key={item.id} value={item.id}>{item.descricao}</option>
                         })}
                     </select>
                     <label htmlFor='date'>Data</label>
