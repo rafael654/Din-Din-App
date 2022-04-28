@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: var(--font-style-rubik);
+
+    height: 13%;
+    padding: 5% 8%;
+
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.profile-container p {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-color);
+    margin-right: 7px;
+}
+
+.profile {
+    height: 31px;
+    width: 29px;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.leave {
+    cursor: pointer;
+}

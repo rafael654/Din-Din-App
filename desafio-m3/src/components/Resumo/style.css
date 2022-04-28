@@ -1,0 +1,66 @@
+.container-resumo {
+    width: 200px;
+    height: 156px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    padding: 26px 33px;
+    font-family: var(--font-style-rubik);
+}
+
+.container-resumo h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.container-resumo h2 {
+    font-size: 13px;
+    font-weight: 500;
+    width: 81px;
+    margin: 0;
+
+}
+
+.container-resumo h3 {
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+
+}
+
+.container-resumo h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    width: 81px;
+}
+
+.credit {
+    color: #645FFB;
+}
+
+.debit {
+    color: #FA8C10;
+}
+
+.d-flex {
+    display: flex;
+    gap: 30px;
+}
+
+.line {
+    margin-top: 5px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 23px;
+}
+
+.balance {
+    color: #3A9FF1;
+}

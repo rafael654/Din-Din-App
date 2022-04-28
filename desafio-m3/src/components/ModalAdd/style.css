@@ -1,0 +1,111 @@
+.background-modal {
+    background: rgba(61, 61, 61, 0.48);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-style-rubik);
+}
+
+.modal-add {
+    width: 611px;
+    height: 759px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    padding: 21px 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modal-add h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.modal-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.modal-add label {
+    display: block;
+    margin-top: 26px;
+    margin-bottom: 6px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.modal-add input,
+select {
+    width: 485px;
+    height: 63px;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.modal-add::placeholder {
+    font-size: 14px;
+}
+
+.entrada {
+    all: unset;
+    width: 245px;
+    height: 60px;
+
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+
+    background-color: #3A9FF1;
+    cursor: pointer;
+}
+
+.off-btn {
+    all: unset;
+    width: 245px;
+    height: 60px;
+
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+
+    background-color: #B9B9B9;
+    cursor: pointer;
+}
+
+.saida {
+    all: unset;
+    width: 245px;
+    height: 60px;
+
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+
+    background-color: #FF576B;
+    cursor: pointer;
+}
+
+.btn-confirm {
+    all: unset;
+    width: 246px;
+    height: 46px;
+    background: #7978D9;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 54px;
+}
